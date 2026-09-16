@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070a0f" />
+  <meta name="description" content="وب‌سایت رسمی کتاب الگوریتم‌های مرگ؛ بررسی نقش هوش مصنوعی در تحول میدان نبرد، تصمیم‌گیری نظامی و سامانه‌های خودمختار." />
+  <meta name="keywords" content="هوش مصنوعی نظامی, الگوریتم‌های مرگ, جنگ هوشمند, پهپاد, سامانه خودمختار, جنگ الگوریتمی, AI Warfare" />
+  <meta name="author" content="مصطفی صادقی" />
+
+  <meta property="og:type" content="book" />
+  <meta property="og:locale" content="fa_IR" />
+  <meta property="og:title" content="الگوریتم‌های مرگ" />
+  <meta property="og:description" content="نقش هوش مصنوعی در تحول میدان نبرد" />
+  <meta property="og:image" content="./assets/cover.png" />
+  <meta property="og:url" content="./" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="الگوریتم‌های مرگ" />
+  <meta name="twitter:description" content="نقش هوش مصنوعی در تحول میدان نبرد" />
+  <meta name="twitter:image" content="./assets/cover.png" />
+
+  <title>الگوریتم‌های مرگ | هوش مصنوعی و تحول میدان نبرد</title>
+
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "الگوریتم‌های مرگ",
+    "alternateName": "Algorithms of Death",
+    "description": "نقش هوش مصنوعی در تحول میدان نبرد؛ بررسی دگرگونی جنگ، تصمیم‌گیری نظامی و سامانه‌های خودمختار.",
+    "inLanguage": "fa",
+    "author": {
+      "@type": "Person",
+      "name": "مصطفی صادقی"
+    },
+    "image": "./assets/cover.png"
+  }
+  </script>
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="ناوبری اصلی">
+      <a class="brand" href="#top" aria-label="صفحه نخست">
+        <span class="brand-mark">AI</span>
+        <span class="brand-text">
+          <strong>الگوریتم‌های مرگ</strong>
+          <small>هوش مصنوعی × میدان نبرد</small>
+        </span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="باز کردن منو" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">درباره کتاب</a>
+        <a href="#chapters">فصل‌ها</a>
+        <a href="#themes">محورهای اصلی</a>
+        <a href="#download">مطالعه و دانلود</a>
+        <button class="nav-share" id="shareBtn" type="button">اشتراک‌گذاری</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-glow glow-a"></div>
+      <div class="hero-glow glow-b"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="pulse-dot"></span>
+            پژوهشی درباره جنگ در عصر الگوریتم‌ها
+          </div>
+
+          <h1>
+            <span>الگوریتم‌های</span>
+            <em>مرگ</em>
+          </h1>
+
+          <p class="hero-subtitle">نقش هوش مصنوعی در تحول میدان نبرد</p>
+
+          <p class="hero-lead">
+            از ماشین‌هایی که می‌بینند و تحلیل می‌کنند تا سامانه‌هایی که می‌توانند
+            تصمیم بگیرند، هماهنگ شوند و در میدان نبرد عمل کنند؛ این کتاب مسیر ورود
+            هوش مصنوعی به ادراک، فرماندهی، خودمختاری و جنگ داده‌محور را دنبال می‌کند.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="openReaderBtn" type="button">
+              <span>مطالعه آنلاین</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h11a2 2 0 0 1 2 2v14H8a3 3 0 0 1-3-3V5a1 1 0 0 1 1-1Zm2 14h9V6H7v10.17A3 3 0 0 1 8 16h9"/></svg>
+            </button>
+
+            <a class="btn btn-secondary" href="./book.pdf" download>
+              <span>دانلود PDF کتاب</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg>
+            </a>
+          </div>
+
+          <div class="quick-meta" aria-label="مشخصات کتاب">
+            <div>
+              <strong>۶</strong>
+              <span>فصل اصلی</span>
+            </div>
+            <i></i>
+            <div>
+              <strong>+۳۰۰</strong>
+              <span>صفحه پژوهشی</span>
+            </div>
+            <i></i>
+            <div>
+              <strong>AI</strong>
+              <span>جنگ و فناوری</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="cover-shell">
+            <div class="scanner-line" aria-hidden="true"></div>
+            <img src="./assets/cover.png" alt="جلد کتاب الگوریتم‌های مرگ" class="book-cover" />
+            <div class="cover-hud hud-1">TARGET // DATA</div>
+            <div class="cover-hud hud-2">AI // C2</div>
+            <div class="corner corner-tl"></div>
+            <div class="corner corner-br"></div>
+          </div>
+
+          <div class="floating-card fc-1">
+            <span>01</span>
+            <p>ادراک ماشینی</p>
+          </div>
+          <div class="floating-card fc-2">
+            <span>02</span>
+            <p>خودمختاری</p>
+          </div>
+          <div class="floating-card fc-3">
+            <span>03</span>
+            <p>جنگ داده‌محور</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="رفتن به بخش بعدی">
+        <span>کاوش کتاب</span>
+        <i></i>
+      </a>
+    </section>
+
+    <section class="marquee" aria-label="موضوعات کلیدی کتاب">
+      <div class="marquee-track">
+        <span>هوش مصنوعی نظامی</span><b>×</b>
+        <span>بینایی ماشین</span><b>×</b>
+        <span>تصمیم‌گیری</span><b>×</b>
+        <span>سامانه‌های خودمختار</span><b>×</b>
+        <span>ازدحام</span><b>×</b>
+        <span>فرماندهی و کنترل</span><b>×</b>
+        <span>جنگ الکترونیک</span><b>×</b>
+        <span>عملیات چندحوزه‌ای</span><b>×</b>
+
+        <span>هوش مصنوعی نظامی</span><b>×</b>
+        <span>بینایی ماشین</span><b>×</b>
+        <span>تصمیم‌گیری</span><b>×</b>
+        <span>سامانه‌های خودمختار</span><b>×</b>
+        <span>ازدحام</span><b>×</b>
+        <span>فرماندهی و کنترل</span><b>×</b>
+        <span>جنگ الکترونیک</span><b>×</b>
+        <span>عملیات چندحوزه‌ای</span><b>×</b>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container two-col">
+        <div class="section-heading reveal">
+          <div class="kicker">درباره کتاب</div>
+          <h2>وقتی الگوریتم وارد <span>چرخه جنگ</span> می‌شود.</h2>
+        </div>
+
+        <div class="about-text reveal delay-1">
+          <p>
+            هوش مصنوعی در میدان نبرد فقط به معنای «سلاح هوشمندتر» نیست. تحول مهم‌تر
+            زمانی رخ می‌دهد که الگوریتم‌ها میان حسگر، داده، تحلیل، تصمیم و سامانه
+            اثرگذار قرار می‌گیرند و ریتم عملیات را تغییر می‌دهند.
+          </p>
+          <p>
+            این کتاب از مبانی فنی هوش مصنوعی آغاز می‌کند و گام‌به‌گام به کاربردهای
+            نظامی، ادراک ماشینی، خودمختاری، سامانه‌های گروهی و در نهایت معماری
+            جنگ داده‌محور و چندحوزه‌ای می‌رسد.
+          </p>
+
+          <div class="quote-card">
+            <span class="quote-mark">“</span>
+            <p>
+              پرسش اصلی فقط این نیست که ماشین چه کاری می‌تواند انجام دهد؛
+              مسئله این است که ورود ماشین به ادراک و تصمیم، شیوه جنگیدن را چگونه تغییر می‌دهد.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section chapters" id="chapters">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <div class="kicker">ساختار کتاب</div>
+          <h2>شش گام برای فهم <span>جنگ الگوریتمی</span></h2>
+          <p>از مبانی هوش مصنوعی تا شبکه‌های کشتار داده‌محور و عملیات چندحوزه‌ای.</p>
+        </div>
+
+        <div class="chapter-grid">
+          <article class="chapter-card reveal">
+            <div class="chapter-num">01</div>
+            <div class="chapter-icon">⌁</div>
+            <h3>وقتی ماشین‌ها یاد می‌گیرند</h3>
+            <p>هوش مصنوعی، یادگیری ماشین، شبکه‌های عصبی، مدل‌های زبانی، بینایی ماشین و محدودیت‌های الگوریتمی.</p>
+            <div class="chapter-tags"><span>ML</span><span>Deep Learning</span><span>GenAI</span></div>
+          </article>
+
+          <article class="chapter-card reveal delay-1">
+            <div class="chapter-num">02</div>
+            <div class="chapter-icon">⌬</div>
+            <h3>هوش مصنوعی در خدمت ارتش</h3>
+            <p>ورود AI به سازمان نظامی، اطلاعات، ISR، آگاهی موقعیتی، برنامه‌ریزی عملیات و پشتیبانی از تصمیم فرمانده.</p>
+            <div class="chapter-tags"><span>ISR</span><span>Decision</span><span>C2</span></div>
+          </article>
+
+          <article class="chapter-card reveal delay-2">
+            <div class="chapter-num">03</div>
+            <div class="chapter-icon">◉</div>
+            <h3>چشم‌های الگوریتمی میدان نبرد</h3>
+            <p>حسگرها، بینایی ماشین، کشف هدف، ترکیب داده‌های چندحسگری، فریب، استتار و میدان نبرد داده‌محور.</p>
+            <div class="chapter-tags"><span>Computer Vision</span><span>Sensors</span><span>Fusion</span></div>
+          </article>
+
+          <article class="chapter-card reveal">
+            <div class="chapter-num">04</div>
+            <div class="chapter-icon">△</div>
+            <h3>ماشین‌هایی که می‌جنگند</h3>
+            <p>سامانه‌های بدون سرنشین و خودمختار، پهپادهای هوشمند، مهمات سرگردان، عامل‌های رزمی و انسان در حلقه.</p>
+            <div class="chapter-tags"><span>AWS</span><span>UAV</span><span>HITL</span></div>
+          </article>
+
+          <article class="chapter-card reveal delay-1">
+            <div class="chapter-num">05</div>
+            <div class="chapter-icon">⟁</div>
+            <h3>ماشین‌هایی که گروهی می‌جنگند</h3>
+            <p>ازدحام، ادراک مشارکتی، تخصیص مأموریت، ناوبری جمعی، هماهنگی غیرمتمرکز و فرماندهی انسان–خودمختاری.</p>
+            <div class="chapter-tags"><span>Swarm</span><span>Multi-Agent</span><span>Autonomy</span></div>
+          </article>
+
+          <article class="chapter-card reveal delay-2">
+            <div class="chapter-num">06</div>
+            <div class="chapter-icon">⌘</div>
+            <h3>از زنجیره کشتار تا جنگ چندحوزه‌ای</h3>
+            <p>زنجیره حسگر تا تیرانداز، زمان تصمیم، فرماندهی و کنترل، عملیات چندحوزه‌ای، جنگ الکترونیک و انطباق دشمن.</p>
+            <div class="chapter-tags"><span>Kill Chain</span><span>MDO</span><span>EW</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section themes" id="themes">
+      <div class="container">
+        <div class="themes-panel">
+          <div class="themes-copy reveal">
+            <div class="kicker">محورهای اصلی</div>
+            <h2>کتاب چه چیزی را دنبال می‌کند؟</h2>
+            <p>
+              تمرکز کتاب بر رابطه میان فناوری، انسان، سازمان نظامی و محیط خصمانه است؛
+              نه فقط بر خودِ الگوریتم.
+            </p>
+          </div>
+
+          <div class="theme-list">
+            <div class="theme-item reveal">
+              <span>01</span>
+              <div><h3>داده → ادراک</h3><p>چگونه حسگرها میدان نبرد را به داده تبدیل می‌کنند و الگوریتم چگونه از داده، الگو استخراج می‌کند.</p></div>
+            </div>
+            <div class="theme-item reveal">
+              <span>02</span>
+              <div><h3>ادراک → تصمیم</h3><p>نقش AI در کاهش بار شناختی، اولویت‌بندی اطلاعات و فشرده‌سازی زمان تصمیم.</p></div>
+            </div>
+            <div class="theme-item reveal">
+              <span>03</span>
+              <div><h3>تصمیم → اقدام</h3><p>خودمختاری، کنترل انسانی، عامل‌های هوشمند و اتصال تصمیم به سامانه‌های اثرگذار.</p></div>
+            </div>
+            <div class="theme-item reveal">
+              <span>04</span>
+              <div><h3>مزیت → ضدتدبیر</h3><p>چرا فریب، جنگ الکترونیک، اختلال شبکه و انطباق دشمن می‌توانند مزیت الگوریتمی را فرسوده کنند.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section download-section" id="download">
+      <div class="container">
+        <div class="download-card reveal">
+          <div class="download-art" aria-hidden="true">
+            <img src="./assets/cover.png" alt="" />
+          </div>
+
+          <div class="download-copy">
+            <div class="kicker">نسخه دیجیتال</div>
+            <h2>کتاب را همین‌جا بخوانید.</h2>
+            <p>
+              نسخه PDF در همین مخزن GitHub Pages قرار گرفته و بدون وابستگی به سرویس خارجی
+              قابل مطالعه و دریافت است.
+            </p>
+
+            <div class="download-actions">
+              <button class="btn btn-primary" id="openReaderBtn2" type="button">باز کردن کتاب</button>
+              <a class="btn btn-secondary" href="./book.pdf" download>دریافت فایل PDF</a>
+            </div>
+
+            <div class="credit">
+              <span>تهیه و ارائه</span>
+              <strong>هیات اندیشه ورز تیپ 230 متحرک هجومی شهید اسدالله متاجی</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-note">
+      <div class="container reveal">
+        <p class="terminal-label">SYSTEM NOTE / 01</p>
+        <blockquote>
+          «آینده جنگ فقط درباره سلاح‌های جدید نیست؛ درباره این است که چه کسی زودتر می‌بیند،
+          بهتر می‌فهمد و سریع‌تر تصمیم را به اقدام تبدیل می‌کند.»
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>الگوریتم‌های مرگ</strong>
+        <p>نقش هوش مصنوعی در تحول میدان نبرد</p>
+      </div>
+      <div class="footer-links">
+        <a href="#top">بازگشت به بالا</a>
+        <a href="./book.pdf" target="_blank" rel="noopener">PDF</a>
+        <button id="copyLinkBtn" type="button">کپی لینک</button>
+      </div>
+    </div>
+    <div class="footer-line"></div>
+  </footer>
+
+  <dialog class="reader-modal" id="readerModal">
+    <div class="reader-shell">
+      <div class="reader-bar">
+        <div>
+          <span class="reader-dot"></span>
+          <strong>مطالعه آنلاین — الگوریتم‌های مرگ</strong>
+        </div>
+        <div class="reader-actions">
+          <a href="./book.pdf" target="_blank" rel="noopener" title="باز کردن در تب جدید">↗</a>
+          <button type="button" id="closeReaderBtn" aria-label="بستن">×</button>
+        </div>
+      </div>
+      <iframe
+        id="pdfFrame"
+        title="نسخه PDF کتاب الگوریتم‌های مرگ"
+        data-src="./book.pdf#view=FitH"
+      ></iframe>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
